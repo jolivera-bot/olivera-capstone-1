@@ -40,7 +40,7 @@
 						<a class="nav-link" href="#projects">Projects</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contacts</a>
+						<a class="nav-link" href="#Contacts">Contacts</a>
 					</li>
 				</ul>
 			</div>
@@ -66,29 +66,29 @@
 <section id="tools">
 	<h1>Tools</h1>
 	<div class="container-fluid">
-		<div class="row justify-content-center col-auto p-3 m-3">
-			<div class="card bg-dark mr-xl-auto ml-xl-auto p-auto" style="width: 18rem;">
+		<div class="row justify-content-center d-lg-flex col-auto p-3 m-3">
+			<div class="card bg-dark mr-xl-5 ml-xl-5 p-auto m-xl-0" style="width: 18rem;">
 				<img class="image-fluid" src="./images/html.png" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h2>HTML</h2>
 					<p class="card-text">tool that offers a user-friendly environment for editing text and HTML code. It can be used by people with little experience in HTML webdesign, since it gives them a helping hand in this matter.</p>
 				</div>
 			</div>
-			<div class="card bg-dark mr-xl-auto ml-xl-auto" style="width: 18rem;">
+			<div class="card bg-dark mr-xl-5 ml-xl-5 m-xl-0" style="width: 18rem;">
 				<img bg-dark src="./images/css3.png" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h2>CSS</h2>
 					<p class="card-text">Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify the process of making web pages presentable. CSS allows you to apply styles to web pages.</p>
 				</div>
 			</div>
-			<div class="card bg-dark mr-xl-auto ml-xl-auto" style="width: 18rem;">
+			<div class="card bg-dark mr-xl-5 ml-xl-5 m-xl-0" style="width: 18rem;">
 				<img bg-dark src="./images/bootstrap.png" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h2>Bootstrap</h2>
 					<p class="card-text">a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS - and (optionally) JavaScript -based design templates for typography, forms, buttons, navigation, and other interface components.</p>
 				</div>
 			</div>
-			<div class="card bg-dark mr-xl-auto ml-xl-auto" style="width: 18rem;">
+			<div class="card bg-dark mr-xl-5 ml-xl-5 m-xl-0" style="width: 18rem;">
 				<img bg-dark src="./images/sublime-text-3.png" class="card-img-top" alt="...">
 				<div class="card-body">
 					<h2>Sublime</h2>
@@ -97,34 +97,106 @@
 			</div>
 		</div>
 
-		<!-- Projects -->
+<!-- Projects -->
 
 		<div id="projects">
 
 			<h1>Projects</h1>
 
-			<div class="row justify-content-center pt-5">
-					<div class="image-project col m-auto">
-						<img class="image-fluid" width="300" src="./images/project-1.png">
+				<div class="row image-project-1 justify-content-center row pt-3">
+					
+					<div class="card col-auto col-lg-2 mr-lg-4 mb-0 mt-3 mb-3" style="width: 18rem;">
+						<img class="image-fluid" src="./images/project-1.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Bootstrap Framework activity</p>
+							<p>
+							<a href="file:///C:/Users/ERROR/OneDrive/Desktop/batch-211/s12/d1/index.html" class="btn btn-dark">Link</a></p>
+						</div>
 					</div>
-					<div class="image-project col m-auto">
-						<img class="image-fluid" width="300" src="./images/project-2.png">
+
+					<div class="card col-auto col-lg-2 ml-4 mr-4 mb-0 mt-3 mb-3" style="width: 18rem;">
+						<img class="image-fluid" src="./images/project.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Bootstrap Grid System</p>
+							<p>
+							<a href="file:///C:/Users/ERROR/OneDrive/Desktop/batch-211/s10/d1/index.html" class="btn btn-dark">Link</a></p>
+						</div>
 					</div>
-					<div class="image-project col m-auto">
-						<img class="image-fluid" src="./images/project-3.png">
+					<div class="card col-auto col-lg-2 ml-sm-3 mb-0 mt-3 mb-3" style="width: 18rem;">
+						<img class="image-fluid" src="images/computer.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">First HTML Portfolio</p>
+							<p>
+							<a href="file:///C:/Users/ERROR/OneDrive/Documents/Web%20development/fcb-portfolio/index.html" class="btn btn-dark">Link</a></p>
+						</div>
 					</div>
+				</div>
 			</div>
-		</div>
-
-		<!-- Contacts -->
-		<div class="row">
-			<form>
-				
-			</form>
-		</div>
-
    	</div>
 </section>
+
+<!-- Contact -->
+
+<section id="Contacts">
+	<!-- Contacts -->
+	<div class="container-fluid p-5">
+		<h1>Get in Touch</h1>
+		<h3>Let me know if you have questions and suggestions</h3>
+		<div class="row">
+			<form class="col-12 offset-xl-4 col-xl-4 offset-md-4 col-md-4">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" class="form-control" placeholder="Your Name" required autocomplete>
+					</div>
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@email.com" required autocomplete>
+					</div>
+					<div class="form-group">
+						<label for="number">Phone Number</label>
+						<input type="number" class="form-control" placeholder="Your Number" required autocomplete>
+					</div>
+					<div class="form-group">
+						<label for="subject">Subject</label>
+						<input type="text" class="form-control" placeholder="Subject" required autocomplete>
+					</div>
+					<div class="mb-3">
+						<label for="message">Message</label>
+						<textarea class="form-control" id="validationTextarea" placeholder="Enter your Message" rows="7" required autocomplete></textarea>
+					</div>
+					<div class="button">
+					<button type="submit" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send Email</button>
+					</div>
+			</form>
+		</div>
+	</div>
+</section>
+
+<section id="pre-footer">
+	
+<div class="contact-us">
+	<h3>Contact us</h3>
+	<p>09179301011</p>
+	<p>(042)7950870</p>
+</div>
+<div class="follow-us">
+	<h3>Follow us</h3>
+	<p><a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+	<p><a href="https://www.linkedin.com/pulse/how-write-section-your-linkedin-profile-manca-korelc/" target="_blank">LinkedIn</a></p>
+</div>
+<div class="maps">
+	<h3>Map</h3>
+	<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123482.44348060395!2d121.58449014784924!3d14.72240715549784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339829ecc1fcd9fd%3A0x1ed3e8e1e4101dc!2sInfanta%2C%20Quezon!5e0!3m2!1sen!2sph!4v1663787184785!5m2!1sen!2sph" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</div>
+
+
+</section>
+
+<footer id="footer" class="container-fluid">
+
+		© 2022 HomeWork | All Rights Reserved		
+		
+</footer>
 
 	<!-- Bootstrap Script -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
